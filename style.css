@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: px;
+
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+#top{
+     position: fixed;
+     right: 30px;
+     bottom: 30px;
+
+
+}
+
+.hr1{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid red;
+}
+.hr2{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid rgb(145, 106, 106);
+}
+.hr3{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid rgb(74, 10, 211);
+}
+
+.hr4{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid rgb(11, 255, 56);
+}
+.hr5{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid rgb(255, 128, 0);
+}
+.hr6{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(116, 11, 32); */
+    border: 3px solid rgb(255, 3, 175);
+}
+body{
+    background-color: rgb(148, 233, 233);
+}
+/* navigation bar  */
+#navbar{
+    display: flex;
+    background-color: bisque;
+    color: black;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#logo{
+    width: 20%;
+    text-align: center;
+}
+#logoimage{
+    margin: 5px;
+    padding: 2px;
+    height: 50px;
+    border-radius: 35px;
+}
+#links{
+    width: 60%;
+
+} 
+
+#navlinks{
+    display: flex;
+    list-style-type: none;
+
+}
+#navlinks li{
+    padding: 10px;
+
+}
+#navlinks a{
+color: rgb(74, 141, 200);
+text-decoration: none;
+font-size: 18px;
+font-family: 'Chivo Mono', monospace;
+padding: 9px;
+border-radius: 15px;
+
+}
+#navlinks a:hover{
+    color: rgb(30, 27, 25);
+    background-color: rgb(154, 139, 102);
+    transition: 1s;
+
+}
+
+
+
+#search{
+    width: 20%;
+    /* horizontal center */
+    text-align: center;
+    /* vertical center */
+    align-items: center;
+
+}
+#searchbox{
+    width: 110px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(35, 12, 3);
+    padding: 5px;
+
+}
+/* Navigation bar ends here */
+/* welcome section starts */
+#welcome{
+    display: flex;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+   justify-content: center;
+}
+/* About Us */
+#aboutus{
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+}
+#services{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.border1{
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: groove;
+    border-color: brown;
+    border-radius: 5px;
+    height: 300px;
+    width: 30%;
+    padding: 15px;
+}
+#servicefood{
+    background-color: aqua;
+    
+}
+#servicecatering{
+    background-color: blue;
+}
+#servicebulk{
+    background-color: rgb(36, 33, 33);
+}
+.serviceimg{
+    height: 170px;
+    
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.font1{
+    font-size: 20px;
+    color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+/* Clients Section Starts */
+#clients{
+    height: 400px;
+}
+/* Contact Us Section Starts */
+#contactus{
+    height: 650px;
+    background-image: url(backgroundform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    padding: 15px;
+
+}
+.font2{
+    color: crimson;
+    font-size: 28px;
+    margin: 15px;
+    text-align: center;
+}
+#contactbox{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+#contactbox input , #contactbox textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(238, 220, 175);
+    font-size: 18px;
+}
+#contactbox label{
+    padding: 5px;
+   margin: 5px;
+}
+/* Social media Starts Here */
+#social{
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
